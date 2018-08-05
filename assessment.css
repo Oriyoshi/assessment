@@ -1,0 +1,28 @@
+:root {
+    --text-color: rgb(242, 199, 255);
+    --bgcolor-main: #A42CA4;
+    --bgcolor-sub: #7D037D;
+}
+
+body {
+    background-color:  var(--bgcolor-main);
+    color: var(--text-color);
+
+    width: 500px;
+    margin-right: auto;
+    margin-left : auto;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: var(--bgcolor-sub);
+    border-color: #2E6DA4;
+    border-style: none;
+    border-radius: 20px;
+    color: var(--text-color);
+}
+
+input {
+    height: 20px;
+    border-radius: 20px;
+}
